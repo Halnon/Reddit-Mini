@@ -1,0 +1,1 @@
+//this will display the content and will be the second component to be rendered in maintile

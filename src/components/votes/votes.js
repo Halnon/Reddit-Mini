@@ -1,0 +1,1 @@
+//this wil display the amount of upvotes on the content

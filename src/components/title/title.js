@@ -1,0 +1,1 @@
+//fist component to be rendered in maintile. this will display the title of the reddit content
