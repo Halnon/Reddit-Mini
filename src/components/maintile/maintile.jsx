@@ -6,6 +6,7 @@ import Title from "../title/title";
 import Content from "../content/content";
 import Author from "../author/author";
 import Time from "../time/time";
+import Comments from "../comments/comments";
 
 export default function Maintile() {
   return (
@@ -17,6 +18,7 @@ export default function Maintile() {
           <div className="maintile--container--3">
             <Author />
             <Time />
+            <Comments />
           </div>
         </div>
       </div>
