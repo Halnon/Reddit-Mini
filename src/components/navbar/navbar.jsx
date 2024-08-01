@@ -4,7 +4,7 @@ import React from 'react';
 
 export default function Navbar() {
     return (
-        <header className="">
+        <header className="navbar--container">
           <h1>React Mini</h1>
         </header>
     )
