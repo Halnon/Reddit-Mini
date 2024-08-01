@@ -35,4 +35,10 @@ main {
 
 .maintile--container--2 {
   text-align: center;
+  width: 50%;
+}
+
+.maintile--container--3 {
+  display: flex;
+  justify-content: space-evenly;
 }
