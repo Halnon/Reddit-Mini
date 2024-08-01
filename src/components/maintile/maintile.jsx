@@ -4,6 +4,7 @@
 import React from "react";
 import Title from "../title/title";
 import Content from "../content/content";
+import Author from "../author/author";
 
 export default function Maintile() {
   return (
@@ -13,7 +14,7 @@ export default function Maintile() {
           <Content />
           <hr />
           <div className="maintile--container--3">
-
+            <Author />
           </div>
         </div>
       </div>
