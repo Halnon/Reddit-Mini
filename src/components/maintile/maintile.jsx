@@ -3,11 +3,13 @@
 
 import React from "react";
 import Title from "../title/title";
+import Content from "../content/content";
 
 export default function Maintile() {
   return (
       <div className="maintile--container">
         <Title />
+        <Content />
       </div>
   )
 };
