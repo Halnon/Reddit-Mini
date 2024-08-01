@@ -8,8 +8,10 @@ import Content from "../content/content";
 export default function Maintile() {
   return (
       <div className="maintile--container">
-        <Title />
-        <Content />
+        <div className="maintile--container--2">
+          <Title />
+          <Content />
+        </div>
       </div>
   )
 };
