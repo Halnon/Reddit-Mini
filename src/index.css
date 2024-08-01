@@ -24,3 +24,15 @@ main {
   height: 65px;
   width: auto;
 }
+
+/* maintile styles */
+
+.maintile--container {
+  display: flex;
+  justify-content: center;
+  background-color: cadetblue;
+}
+
+.maintile--container--2 {
+  text-align: center;
+}
