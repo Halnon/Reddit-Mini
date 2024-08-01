@@ -2,11 +2,12 @@
 //multiple tiles will be rendered on page that displays various content from Reddit JSON API
 
 import React from "react";
+import Title from "../title/title";
 
 export default function Maintile() {
   return (
       <div className="maintile--container">
-        <h2>hello</h2>
+        <Title />
       </div>
   )
 };
