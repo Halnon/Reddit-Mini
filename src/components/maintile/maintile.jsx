@@ -11,6 +11,10 @@ export default function Maintile() {
         <div className="maintile--container--2">
           <Title />
           <Content />
+          <hr />
+          <div className="maintile--container--3">
+
+          </div>
         </div>
       </div>
   )
