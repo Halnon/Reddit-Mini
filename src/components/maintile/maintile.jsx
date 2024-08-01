@@ -5,6 +5,7 @@ import React from "react";
 import Title from "../title/title";
 import Content from "../content/content";
 import Author from "../author/author";
+import Time from "../time/time";
 
 export default function Maintile() {
   return (
@@ -15,6 +16,7 @@ export default function Maintile() {
           <hr />
           <div className="maintile--container--3">
             <Author />
+            <Time />
           </div>
         </div>
       </div>
