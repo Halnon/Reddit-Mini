@@ -2,10 +2,10 @@
 
 import React from "react";
 
-export default function Time() {
+export default function Time(props) {
   return (
       <div>
-        <p>10 hours ago</p>
+        <p>{props.time} hours ago</p>
       </div>
   )
 };
