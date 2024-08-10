@@ -9,14 +9,16 @@ import Time from "../time/time";
 import Comments from "../comments/comments";
 import Votes from "../votes/votes";
 
-export default function Maintile() {
+export default function Maintile(props) {
   return (
       <div className="maintile--container">
         <div>
           <Votes />
         </div>
         <div className="maintile--container--2">
-          <Title />
+          <Title 
+            mainTitle={props.title}
+          />
           <Content />
           <hr />
           <div className="maintile--container--3">
