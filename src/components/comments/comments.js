@@ -1,1 +1,0 @@
-//this will display the amount of comments on a post

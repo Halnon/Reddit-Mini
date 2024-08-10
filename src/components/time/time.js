@@ -1,1 +1,0 @@
-//this will display how long ago the content was posted
