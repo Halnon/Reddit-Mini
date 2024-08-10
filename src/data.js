@@ -7,7 +7,7 @@ export default [
     contentImg: 'AdTiz.jpg',
     votes: '1000',
     author: 'Tiz',
-    time: '7 hous ago',
+    time: '7 hours ago',
     comments: "37"
   },
   {
