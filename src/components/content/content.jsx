@@ -2,10 +2,10 @@
 
 import React from "react";
 
-export default function Content() {
+export default function Content(props) {
   return (
       <div className="content">
-        <img src="#"/>
+        <img src={props.contentImg}/>
       </div>
   )
 };
