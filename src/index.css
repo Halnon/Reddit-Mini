@@ -42,3 +42,10 @@ main {
   display: flex;
   justify-content: space-evenly;
 }
+
+img {
+  display: block;
+  border-radius: 10px;
+  max-width: 60%;
+  height: auto;
+}
