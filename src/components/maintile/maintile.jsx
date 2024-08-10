@@ -19,7 +19,9 @@ export default function Maintile(props) {
           <Title 
             mainTitle={props.title}
           />
-          <Content />
+          <Content 
+            contentImg={props.contentImg}
+          />
           <hr />
           <div className="maintile--container--3">
             <Author />
