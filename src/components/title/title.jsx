@@ -2,10 +2,10 @@
 
 import React from "react";
 
-export default function Title() {
+export default function Title(props) {
   return (
       <div className="title--container">
-        <h2>Main title of content</h2>
+        <h2>{props.mainTitle}</h2>
       </div>
   )
 };
