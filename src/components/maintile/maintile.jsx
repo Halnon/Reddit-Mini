@@ -13,7 +13,9 @@ export default function Maintile(props) {
   return (
       <div className="maintile--container">
         <div>
-          <Votes />
+          <Votes 
+            votes={props.votes}
+          />
         </div>
         <div className="maintile--container--2">
           <Title 
@@ -24,9 +26,15 @@ export default function Maintile(props) {
           />
           <hr />
           <div className="maintile--container--3">
-            <Author />
-            <Time />
-            <Comments />
+            <Author 
+              author={props.author}
+            />
+            <Time 
+              time={props.time}
+            />
+            <Comments 
+              comments={props.comments}
+            />
           </div>
         </div>
       </div>
