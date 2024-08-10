@@ -12,21 +12,21 @@ export default [
   },
   {
     id: 2,
-    title: '',
-    contentImg: '',
-    votes: '',
-    author: '',
-    time: '',
-    comments: ""
+    title: 'Bookshelf',
+    contentImg: 'bookshelf.jpg',
+    votes: '67',
+    author: 'Adam',
+    time: 2.5,
+    comments: "56"
   },
   {
     id: 3,
-    title: '',
-    contentImg: '',
-    votes: '',
-    author: '',
-    time: '',
-    comments: ""
+    title: 'Velveteen & Mandala',
+    contentImg: 'vandm.jpg',
+    votes: '89',
+    author: 'Martin',
+    time: 3,
+    comments: "234"
   },
 
 ];
@@ -39,7 +39,7 @@ title: '',
 contentImg: '',
 votes: '',
 author: '',
-time: '',
+time: 3,
 comments: ""
 
 */
