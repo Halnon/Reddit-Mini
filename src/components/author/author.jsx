@@ -2,10 +2,10 @@
 
 import React from "react";
 
-export default function Author() {
+export default function Author(props) {
   return (
       <div>
-        <p>Posted by <a href="#">Adam</a></p>
+        <p>Posted by <a href="#">{props.author}</a></p>
       </div>
   )
 };

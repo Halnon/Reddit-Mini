@@ -2,10 +2,10 @@
 
 import React from "react";
 
-export default function Comments() {
+export default function Comments(props) {
   return (
       <div>
-        <p>100</p>
+        <p>{props.comments}</p>
       </div>
   )
 };
