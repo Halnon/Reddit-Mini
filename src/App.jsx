@@ -10,7 +10,15 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Maintile />
+      <Maintile 
+        key={data.id}
+        title={data.title}
+        contentImg={data.contentImg}
+        votes={data.votes}
+        author={data.author}
+        time={data.time}
+        comments={data.comments}
+      />
     </div>
   )
 }
